@@ -323,7 +323,7 @@
     </div>
     <div class="row">
         <div class="col-12">
-            <form >
+            <form id="susForm" action="#">
                 <div class="btn Text">
                     <input type="number" value="5" min="1" max="5" id="q1" name="q1" required />
                     <label for="q1">I think that I would like to use this system
@@ -335,35 +335,35 @@
                 </div>
                 <div class="btn Text">
                     <input type="number" value="5" min="1" max="5" id="q3" name="q3" required />
-                    <label for="q2">I thought the system was easy to use.</label>
+                    <label for="q3">I thought the system was easy to use.</label>
                 </div>
                 <div class="btn Text">
                     <input type="number" value="5" min="1" max="5" id="q4" name="q4" required />
-                    <label for="q2">I think that I would need the support of a technical person to be able to use this system.</label>
+                    <label for="q4">I think that I would need the support of a technical person to be able to use this system.</label>
                 </div>
                 <div class="btn Text">
                     <input type="number" value="5" min="1" max="5" id="q5" name="q5" required />
-                    <label for="q2">I found the various functions in this system were well integrated.</label>
+                    <label for="q5">I found the various functions in this system were well integrated.</label>
                 </div>
                 <div class="btn Text">
                     <input type="number" value="5" min="1" max="5" id="q6" name="q6" required />
-                    <label for="q2">I thought there was too much inconsistency in this system.</label>
+                    <label for="q6">I thought there was too much inconsistency in this system.</label>
                 </div>
                 <div class="btn Text">
                     <input type="number" value="5" min="1" max="5" id="q7" name="q7" required />
-                    <label for="q2">I would imagine that most people would learn to use this system very quickly.</label>
+                    <label for="q7">I would imagine that most people would learn to use this system very quickly.</label>
                 </div>
                 <div class="btn Text">
                     <input type="number" value="5" min="1" max="5" id="q8" name="q8" required />
-                    <label for="q2">I found the system very cumbersome to use.</label>
+                    <label for="q8">I found the system very cumbersome to use.</label>
                 </div>
                 <div class="btn Text">
                     <input type="number" value="5" min="1" max="5" id="q9" name="q9" required />
-                    <label for="q2">I felt very confident using the system.</label>
+                    <label for="q9">I felt very confident using the system.</label>
                 </div>
                 <div class="btn Text">
                     <input type="number" value="5" min="1" max="5" id="q10" name="q10" required />
-                    <label for="q2">I needed to learn a lot of things before I could get going with this system.</label>
+                    <label for="q10">I needed to learn a lot of things before I could get going with this system.</label>
                 </div>
                 <div>
                     <p></p>
@@ -372,11 +372,14 @@
                     <p></p>
                 </div>
                 <div class="answer Text">
-                    <input type="number" />
+                    <input type="number" id="averageSus" step="any">
                     <p></p>
                     <label for="answer" class="Text"><button type="submit">YOUR SUS SCORE</button></label>
                 </div>
             </form>
+        </div>
+        <div class="row">
+            <div class="col" style="height: 30px;"></div> 
         </div>
     </div>
     </div>
